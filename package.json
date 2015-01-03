@@ -1,0 +1,29 @@
+{
+  "name": "bridges-routes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/",
+  "scripts": {
+    "test": "mocha -R spec test/",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevenzeiler/bridges-routes"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenzeiler/bridges-routes/issues"
+  },
+  "homepage": "https://github.com/stevenzeiler/bridges-routes",
+  "dependencies": {
+    "express": "^4.10.6"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-6to5": "^2.0.0",
+    "mocha": "^2.1.0",
+    "supertest": "^0.15.0"
+  }
+}

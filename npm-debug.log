@@ -1,0 +1,211 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'gulp',
+1 verbose cli   'gulp-6to6' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json bridges-routes@1.0.0 No description
+5 warn package.json bridges-routes@1.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'gulp', null ]
+8 verbose cache add name=undefined spec="gulp" args=["gulp",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'gulp',
+9 verbose parsed url   path: 'gulp',
+9 verbose parsed url   href: 'gulp' }
+10 verbose cache add [ 'gulp-6to6', null ]
+11 verbose cache add name=undefined spec="gulp-6to6" args=["gulp-6to6",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'gulp-6to6',
+12 verbose parsed url   path: 'gulp-6to6',
+12 verbose parsed url   href: 'gulp-6to6' }
+13 silly lockFile 9750c68d-gulp gulp
+14 verbose lock gulp /Users/stevenzeiler/.npm/9750c68d-gulp.lock
+15 silly lockFile 502ee2b8-gulp-6to6 gulp-6to6
+16 verbose lock gulp-6to6 /Users/stevenzeiler/.npm/502ee2b8-gulp-6to6.lock
+17 silly lockFile 9750c68d-gulp gulp
+18 silly lockFile 9750c68d-gulp gulp
+19 silly lockFile 502ee2b8-gulp-6to6 gulp-6to6
+20 silly lockFile 502ee2b8-gulp-6to6 gulp-6to6
+21 verbose addNamed [ 'gulp', '' ]
+22 verbose addNamed [ null, '*' ]
+23 silly lockFile 72f4391e-gulp gulp@
+24 verbose lock gulp@ /Users/stevenzeiler/.npm/72f4391e-gulp.lock
+25 verbose addNamed [ 'gulp-6to6', '' ]
+26 verbose addNamed [ null, '*' ]
+27 silly lockFile 69440bf9-gulp-6to6 gulp-6to6@
+28 verbose lock gulp-6to6@ /Users/stevenzeiler/.npm/69440bf9-gulp-6to6.lock
+29 silly addNameRange { name: 'gulp', range: '*', hasData: false }
+30 silly addNameRange { name: 'gulp-6to6', range: '*', hasData: false }
+31 verbose request where is /gulp-6to6
+32 verbose request registry https://registry.npmjs.org/
+33 verbose request id 8ba39d24421e8ee3
+34 verbose url raw /gulp-6to6
+35 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-6to6' ]
+36 verbose url resolved https://registry.npmjs.org/gulp-6to6
+37 verbose request where is https://registry.npmjs.org/gulp-6to6
+38 info trying registry request attempt 1 at 11:54:19
+39 http GET https://registry.npmjs.org/gulp-6to6
+40 verbose request where is /gulp
+41 verbose request registry https://registry.npmjs.org/
+42 verbose url raw /gulp
+43 verbose url resolving [ 'https://registry.npmjs.org/', './gulp' ]
+44 verbose url resolved https://registry.npmjs.org/gulp
+45 verbose request where is https://registry.npmjs.org/gulp
+46 info trying registry request attempt 1 at 11:54:19
+47 verbose etag "E4KM10T91FG1KZUYGMMI26PXX"
+48 http GET https://registry.npmjs.org/gulp
+49 http 404 https://registry.npmjs.org/gulp-6to6
+50 verbose headers { date: 'Sat, 03 Jan 2015 19:54:19 GMT',
+50 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+50 verbose headers   'content-type': 'application/json',
+50 verbose headers   'cache-control': 'max-age=0',
+50 verbose headers   'content-length': '52',
+50 verbose headers   'accept-ranges': 'bytes',
+50 verbose headers   via: '1.1 varnish',
+50 verbose headers   age: '0',
+50 verbose headers   'x-served-by': 'cache-lax1426-LAX',
+50 verbose headers   'x-cache': 'MISS',
+50 verbose headers   'x-cache-hits': '0',
+50 verbose headers   'x-timer': 'S1420314859.450395,VS0,VE179',
+50 verbose headers   'keep-alive': 'timeout=10, max=50',
+50 verbose headers   connection: 'Keep-Alive' }
+51 silly registry.get cb [ 404,
+51 silly registry.get   { date: 'Sat, 03 Jan 2015 19:54:19 GMT',
+51 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+51 silly registry.get     'content-type': 'application/json',
+51 silly registry.get     'cache-control': 'max-age=0',
+51 silly registry.get     'content-length': '52',
+51 silly registry.get     'accept-ranges': 'bytes',
+51 silly registry.get     via: '1.1 varnish',
+51 silly registry.get     age: '0',
+51 silly registry.get     'x-served-by': 'cache-lax1426-LAX',
+51 silly registry.get     'x-cache': 'MISS',
+51 silly registry.get     'x-cache-hits': '0',
+51 silly registry.get     'x-timer': 'S1420314859.450395,VS0,VE179',
+51 silly registry.get     'keep-alive': 'timeout=10, max=50',
+51 silly registry.get     connection: 'Keep-Alive' } ]
+52 silly lockFile 69440bf9-gulp-6to6 gulp-6to6@
+53 silly lockFile 69440bf9-gulp-6to6 gulp-6to6@
+54 http 304 https://registry.npmjs.org/gulp
+55 silly registry.get cb [ 304,
+55 silly registry.get   { date: 'Sat, 03 Jan 2015 19:54:19 GMT',
+55 silly registry.get     server: 'Apache',
+55 silly registry.get     via: '1.1 varnish',
+55 silly registry.get     'last-modified': 'Sat, 03 Jan 2015 19:54:19 GMT',
+55 silly registry.get     'cache-control': 'max-age=60',
+55 silly registry.get     etag: '"E4KM10T91FG1KZUYGMMI26PXX"',
+55 silly registry.get     age: '0',
+55 silly registry.get     'x-served-by': 'cache-lax1424-LAX',
+55 silly registry.get     'x-cache': 'HIT',
+55 silly registry.get     'x-cache-hits': '1',
+55 silly registry.get     'x-timer': 'S1420314859.450919,VS0,VE310',
+55 silly registry.get     vary: 'Accept',
+55 silly registry.get     'content-length': '0',
+55 silly registry.get     'keep-alive': 'timeout=10, max=50',
+55 silly registry.get     connection: 'Keep-Alive' } ]
+56 verbose etag https://registry.npmjs.org/gulp from cache
+57 silly addNameRange number 2 { name: 'gulp', range: '*', hasData: true }
+58 silly addNameRange versions [ 'gulp',
+58 silly addNameRange   [ '0.0.1',
+58 silly addNameRange     '0.0.2',
+58 silly addNameRange     '0.0.3',
+58 silly addNameRange     '0.0.4',
+58 silly addNameRange     '0.0.5',
+58 silly addNameRange     '0.0.7',
+58 silly addNameRange     '0.0.8',
+58 silly addNameRange     '0.0.9',
+58 silly addNameRange     '0.1.0',
+58 silly addNameRange     '0.2.0',
+58 silly addNameRange     '1.0.0',
+58 silly addNameRange     '1.1.0',
+58 silly addNameRange     '1.2.0',
+58 silly addNameRange     '1.2.1',
+58 silly addNameRange     '2.0.0',
+58 silly addNameRange     '2.0.1',
+58 silly addNameRange     '2.1.0',
+58 silly addNameRange     '2.2.0',
+58 silly addNameRange     '2.3.0',
+58 silly addNameRange     '2.4.0',
+58 silly addNameRange     '2.4.1',
+58 silly addNameRange     '2.6.0',
+58 silly addNameRange     '2.6.1',
+58 silly addNameRange     '2.7.0',
+58 silly addNameRange     '3.0.0',
+58 silly addNameRange     '3.1.1',
+58 silly addNameRange     '3.1.2',
+58 silly addNameRange     '3.1.3',
+58 silly addNameRange     '3.1.4',
+58 silly addNameRange     '3.2.0',
+58 silly addNameRange     '3.2.1',
+58 silly addNameRange     '3.2.2',
+58 silly addNameRange     '3.2.3',
+58 silly addNameRange     '3.2.4',
+58 silly addNameRange     '3.2.5',
+58 silly addNameRange     '3.3.0',
+58 silly addNameRange     '3.3.1',
+58 silly addNameRange     '3.3.2',
+58 silly addNameRange     '3.3.4',
+58 silly addNameRange     '3.4.0',
+58 silly addNameRange     '3.5.0',
+58 silly addNameRange     '3.5.1',
+58 silly addNameRange     '3.5.2',
+58 silly addNameRange     '3.5.5',
+58 silly addNameRange     '3.5.6',
+58 silly addNameRange     '3.6.0',
+58 silly addNameRange     '3.6.1',
+58 silly addNameRange     '3.6.2',
+58 silly addNameRange     '3.7.0',
+58 silly addNameRange     '3.8.0',
+58 silly addNameRange     '3.8.1',
+58 silly addNameRange     '3.8.2',
+58 silly addNameRange     '3.8.3',
+58 silly addNameRange     '3.8.4',
+58 silly addNameRange     '3.8.5',
+58 silly addNameRange     '3.8.6',
+58 silly addNameRange     '3.8.7',
+58 silly addNameRange     '3.8.8',
+58 silly addNameRange     '3.8.9',
+58 silly addNameRange     '3.8.10' ] ]
+59 verbose addNamed [ 'gulp', '3.8.10' ]
+60 verbose addNamed [ '3.8.10', '3.8.10' ]
+61 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+62 verbose lock gulp@3.8.10 /Users/stevenzeiler/.npm/f843d0d7-gulp-3-8-10.lock
+63 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+64 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+65 silly lockFile 72f4391e-gulp gulp@
+66 silly lockFile 72f4391e-gulp gulp@
+67 error 404 404 Not Found: gulp-6to6
+67 error 404
+67 error 404 'gulp-6to6' is not in the npm registry.
+67 error 404 You should bug the author to publish it
+67 error 404 It was specified as a dependency of 'bridges-routes'
+67 error 404
+67 error 404 Note that you can also install from a
+67 error 404 tarball, folder, or http url, or git url.
+68 error System Darwin 13.3.0
+69 error command "node" "/usr/local/bin/npm" "install" "--save-dev" "gulp" "gulp-6to6"
+70 error cwd /Users/stevenzeiler/github/stevenzeiler/bridges-routes
+71 error node -v v0.10.32
+72 error npm -v 1.4.28
+73 error code E404
+74 verbose exit [ 1, true ]
